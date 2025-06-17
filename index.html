@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yılan Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <div class="score">Puan: <span id="score">0</span></div>
+            <button id="theme-toggle" class="theme-toggle">🌙</button>
+        </div>
+        <div id="game-board"></div>
+        <div id="game-over" class="hidden">
+            <h2>Oyun Bitti!</h2>
+            <button id="restart-button">Yeniden Başlat</button>
+        </div>
+        <div class="mobile-controls">
+            <button id="up-btn" class="control-btn">↑</button>
+            <div class="horizontal-controls">
+                <button id="left-btn" class="control-btn">←</button>
+                <button id="right-btn" class="control-btn">→</button>
+            </div>
+            <button id="down-btn" class="control-btn">↓</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 
