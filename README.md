@@ -64,7 +64,7 @@ Oyunu özelleştirmek için:
 
 ## 📝 Lisans
 
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
+Bu proje GNU GENERAL PUBLIC LICENSE lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
 
 ## 👥 Katkıda Bulunma
 
